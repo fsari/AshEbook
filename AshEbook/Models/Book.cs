@@ -30,5 +30,7 @@ namespace AshEbook.Models
 
         public virtual ApplicationUser UserCreated{ get; set; }
 
+        public int ViewCount { get; set; }
+
     }
 }

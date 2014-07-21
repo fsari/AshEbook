@@ -11,7 +11,7 @@ using PagedList;
 namespace AshEbook.Controllers
 {
 
-    [Authorize(Roles = "admin")]
+    [Authorize]
     public class BooksController : Controller
     {
         private readonly ApplicationDbContext _db = new ApplicationDbContext();
